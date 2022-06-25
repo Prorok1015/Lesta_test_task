@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Document>
+	<Object Name="Зомби" Image="image/persona.png">
+		<Attribute Name="Тупой" Value="Да" Type="Bool" />
+		<Attribute Name="Скорость" Value="0,66" Type="Float" />
+		<Attribute Name="Урон" Value="70" Type="Int" />
+	</Object>
+	<Object Name="Локация" Image="image/img.jpg">
+		<Attribute Name="Уникальный" Value="Да" Type="Bool" />
+		<Attribute Name="Время суток" Value="1600" Type="Int" />
+	</Object>
+	<Object Name="Птица" Image="no">
+		<Attribute Name="Цвет" Value="255" Type="Int" />
+	</Object>
+</Document>

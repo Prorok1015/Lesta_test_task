@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="ZbRgl3" name="Lesta_test_task" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              cppLanguageStandard="20">
+  <MAINGROUP id="lIb04o" name="Lesta_test_task">
+    <GROUP id="{56E34B92-47F2-3BC6-F794-A3CAD0C26549}" name="Backend">
+      <GROUP id="{8B5FBBFD-A160-E329-3FCB-A3435BF31E25}" name="lib">
+        <FILE id="UPFU7y" name="pugiconfig.hpp" compile="0" resource="0" file="Source/lib/pugiconfig.hpp"/>
+        <FILE id="Jfnwaw" name="pugixml.cpp" compile="1" resource="0" file="Source/lib/pugixml.cpp"/>
+        <FILE id="yQjOmL" name="pugixml.hpp" compile="0" resource="0" file="Source/lib/pugixml.hpp"/>
+      </GROUP>
+      <FILE id="PsM8wW" name="Attribute.cpp" compile="1" resource="0" file="Source/Attribute.cpp"/>
+      <FILE id="yBZDPQ" name="Attribute.h" compile="0" resource="0" file="Source/Attribute.h"/>
+      <FILE id="uXbObj" name="Controller.cpp" compile="1" resource="0" file="Source/Controller.cpp"/>
+      <FILE id="D1rkXH" name="Controller.h" compile="0" resource="0" file="Source/Controller.h"/>
+      <FILE id="nX9Ve4" name="Model.cpp" compile="1" resource="0" file="Source/Model.cpp"/>
+      <FILE id="H4iYl0" name="Model.h" compile="0" resource="0" file="Source/Model.h"/>
+      <FILE id="NNGrfB" name="Object.cpp" compile="1" resource="0" file="Source/Object.cpp"/>
+      <FILE id="Jim1P5" name="Object.h" compile="0" resource="0" file="Source/Object.h"/>
+      <FILE id="y5IG7a" name="Type.cpp" compile="1" resource="0" file="Source/Type.cpp"/>
+      <FILE id="fxmo6R" name="Type.h" compile="0" resource="0" file="Source/Type.h"/>
+    </GROUP>
+    <GROUP id="{AFF4E4D7-B10F-BA2F-06DA-A94D99EAC52F}" name="Frontend">
+      <FILE id="xUbveG" name="ListBoxData.cpp" compile="1" resource="0" file="Source/ListBoxData.cpp"/>
+      <FILE id="UNybDR" name="ListBoxData.h" compile="0" resource="0" file="Source/ListBoxData.h"/>
+      <FILE id="zhSTIW" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="H4ZpN8" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="I9BiKM" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Lesta_test_task"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Lesta_test_task"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_gui_basics" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="C:/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="1" useGlobalPath="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="1" useGlobalPath="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="1" useGlobalPath="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="1" useGlobalPath="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="1" useGlobalPath="0"/>
+  </MODULES>
+</JUCERPROJECT>
